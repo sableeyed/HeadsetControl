@@ -26,6 +26,7 @@
 #include "devices/steelseries_arctis_nova_7.h"
 #include "devices/steelseries_arctis_nova_pro_wireless.h"
 #include "devices/steelseries_arctis_pro_wireless.h"
+#include "devices/steelseries_arctis_pro.h"
 
 #include <assert.h>
 #include <stdio.h>
@@ -72,6 +73,7 @@ void init_devices()
     add_device(arctis_nova_7_init);
     add_device(arctis_7_plus_init);
     add_device(arctis_nova_pro_wireless_init);
+    add_device(arctis_pro_init);
 
     add_device(headsetcontrol_test_init);
 }
